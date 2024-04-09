@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
 
             val fragment = when(item.itemId){
                 R.id.action_home -> HomeFragment()
+                R.id.action_mail -> MailFragment()
+                R.id.action_favorits -> FavoritsFragment()
+                R.id.action_search -> SearchFragment()
 
                 else -> Fragment()
             }
